@@ -5,9 +5,6 @@ const bot = new Discord.Client();
 var randnum = 0;
 var prefix = ('/'); //Le Préfix
 
-//- https://discordapp.com/developers/applications/me
-const token = 'NDE3NDUzNDQ0NDkyODIwNDgx.DXTQfw.XiRwMXEasttkfMzg_CRlxjiTzUI';
-
 //Prépare le Bot
 bot.on('ready', () => {
   bot.user.setPresence({game: { name: 'Think about it', type: 0}})
@@ -52,4 +49,4 @@ function random(min, max) {
 
 }
 
-bot.login(process.env.token);
+bot.login(process.env.BOT_TOKEN);
