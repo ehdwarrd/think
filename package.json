@@ -8,4 +8,7 @@
   },
   "author": "ehdward",
   "license": "ISC"
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }
