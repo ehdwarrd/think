@@ -52,4 +52,4 @@ function random(min, max) {
 
 }
 
-bot.login(token);
+bot.login(process.env.token);
